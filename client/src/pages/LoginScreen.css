@@ -1,0 +1,231 @@
+@media only screen and (min-width: 400px) {
+.main-screen {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: #1b1b1b;
+  min-width: 100%;
+  height: 100%;
+}
+.google-login-button-child {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  border-radius: 8px;
+  width: 321px;
+  height: 56px;
+}
+.login-with-google {
+  margin: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: red;
+  position: absolute;
+  top: 27%;
+  left: -55%;
+  width: 321px;
+  height: 56px;
+}
+.login-with-google-container {
+  position: absolute;
+  top: 32%;
+  left: 30%;
+  font-size: var(--font-size-xl);
+  line-height: 20px;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  width: 54.2%;
+  height: 37.5%;
+}
+.google-login-button {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 27%;
+  left: 36%;
+  width: 321px;
+  height: 56px;
+}
+.or {
+  position: absolute;
+  top: 0px;
+  left: 146px;
+  line-height: 24px;
+}
+.line-or-child {
+  position: absolute;
+  top: 11.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 125px;
+  height: 1px;
+}
+.line-or-item {
+  position: absolute;
+  top: 11.5px;
+  left: 196.5px;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  width: 125px;
+  height: 1px;
+}
+.line-or {
+  position: absolute;
+  top: 40%;
+  left: 36%;
+  width: 321px;
+  height: 24px;
+}
+.password {
+  border: none;
+  display: block;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-5xl);
+  background-color: white;
+  border-radius: 8px 8px 8px 8px;
+  position: absolute;
+  top: 58.3%;
+  left: 36%;
+  width: 321px;
+  height: 56px;
+}
+.name {
+  border: none;
+  display: block;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-5xl);
+  background-color: white;
+  border-radius: 8px 8px 8px 8px;
+  position: absolute;
+  top: 46.46%;
+  left: 36%;
+  width: 321px;
+  height: 56px;
+}
+.newlogo-1-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+}
+.filterpixel {
+  position: absolute;
+  top: 100%;
+  left: 26%;
+  font-weight: 44.24%;
+}
+.newlogo-1-parent {
+  position: absolute;
+  top: -0.5%;
+  left: 0%;
+  width: 15.66%;
+  height: 6%;
+}
+.start-using-filterpixel {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--secondary-color);
+  text-align: left;
+}
+.buttonprimary {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: 0%;
+  left: 82.6%;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(#fff, #fff),
+    linear-gradient(97.51deg, #27eecb, #12d2d2);
+  box-shadow: 0px 7px 20px rgba(10, 31, 29, 0.21);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.overview {
+  position: relative;
+  font-weight: 500;
+}
+.navitem {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-white);
+}
+.navitem1 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navitem3 {
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navbar {
+  position: absolute;
+  top: 0.82%;
+  left: 32.3%;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 56px;
+  font-size: var(--font-size-base);
+  color: var(--color-cadetblue);
+}
+.nav-bar {
+  position: absolute;
+  top: 3.4%;
+  left: 3.4%;
+  width: 100%;
+  height: 7.6%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.submit-button {
+  cursor: pointer;
+  border: none;
+  padding: 16px var(--padding-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: 71%;
+  left: 45%;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(97.51deg, #27eecb, #12d2d2);
+  box-shadow: 0px 7px 20px rgba(30, 226, 206, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.login-screen {
+  position: relative;
+  width: 100%;
+  height: 734px;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+}
